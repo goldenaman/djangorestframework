@@ -1,7 +1,7 @@
 from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
-from Edyug.edyugapi.serializers import PeopleSerializer
-from Edyug.edyugapi.models import People
+from edyugapi.serializers import PeopleSerializer
+from edyugapi.models import People
 
 
 class PeopleViewSet(viewsets.ModelViewSet):
